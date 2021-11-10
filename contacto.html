@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Ajedrez Champagne</title>
+</head>
+<body class="fuenteParrafos">
+    <header>
+        <div class="animate__animated animate__backInDown">
+            <img src="img/logo.png" alt="logotipo" class="header__logo">
+        </div>
+        <h1 class="fuenteTitulos">Contacto</h1>
+        <nav>
+            <ul class="navegadorContenedor">
+                <li><a class="navegadorContenedor__a" href="index.html">Inicio</a></li>
+                <li><a class="navegadorContenedor__a" href="historia.html">Historia</a></li>
+                <li><a class="navegadorContenedor__a" href="ranking-mundial.html">Ranking Mundial</a></li>
+                <li><a class="navegadorContenedor__a" href="partidasdestacadas.html">Partidas Destacadas</a></li>
+                <li><a class="navegadorContenedor__a" href="contacto.html">Contacto</a></li>
+                <li><a class="navegadorContenedor__a" href="jugadores-destacados.html">Jugadores destacados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4 class="tituloContacto">Si te gusta nuestro contenido, puedes suscribirte y lograr un mejor contacto con nosotros :)</h4>
+    <form action="guardar.php" method="POST">
+        <div>
+            <label for="nombre">Ingrese su nombre</label>
+            <input type="text" name="nombre">
+        </div>
+
+        <div>
+            <label for="E-mail">Ingrese su E-mail</label>
+            <input type="text" name="E-mail">
+        </div>
+
+        <div>
+            <label for="tipo">¡Seleccione que contenido le gustaria recibir!</label>
+            <input type="radio" id="clasesenvivo" name="tipo" value="clasesenvivo">
+            <label for="clases en vivo">Clases en vivo</label>
+            <input type="radio" id="tips" name="tipo" value="tips">
+            <label for="tips">Tips</label>
+            <input type="radio" id="tipo" name="tipo" value="asesoramiento">
+            <label for="asesoramiento">Asesoramiento</label>
+            <input type="radio" id="todo" name="tipo" value="todo">
+            <label for="todo">Todo</label>
+        </div>
+        <div>
+            <label for="idioma">Seleccione su idioma</label>
+            <select name="idioma" id="">
+                <option value="español">Español</option>
+                <option value="English">English</option>
+                <option value="Portugues">Portugués</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+    <nav>
+        <ul>
+            <li><a href="index.html">Volver al inicio</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

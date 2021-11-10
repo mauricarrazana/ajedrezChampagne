@@ -1,0 +1,130 @@
+body {
+  background: #020024;
+  background: radial-gradient(circle, #020024 0%, #01488d 55%, #00d4ff 100%); }
+
+.header {
+  background-color: rgba(0, 0, 0, 0.363);
+  color: black;
+  margin: 0.5rem; }
+  .header__logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block; }
+
+.fuente__Titulos {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 65px;
+  text-align: center;
+  animation: bounce;
+  animation-duration: 2s; }
+
+.fuente__Subtitulos {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px; }
+
+.navegadorContenedor li:hover {
+  padding: 15px;
+  list-style: none;
+  margin: 0.5rem;
+  transform: translate(30px);
+  transform-origin: center; }
+
+.navegadorContenedor li {
+  display: inline;
+  color: black;
+  margin: 0.5rem; }
+
+.table {
+  color: white;
+  width: 100%;
+  height: px;
+  display: inline;
+  text-align: center; }
+  .table__contenido {
+    text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    display: inline; }
+
+.navegadorContenedor__a {
+  font-size: 30px;
+  color: #fffc34;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.instagram {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0.5rem; }
+  .instagram__logo {
+    height: 100px;
+    width: 100px; }
+
+.imagenes {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.63);
+  border: 2.5px solid rgba(0, 0, 0, 0.7);
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.imagenes img {
+  width: 420px;
+  height: 320px;
+  padding: 10px;
+  display: inline-block; }
+
+.return {
+  background-color: rgba(0, 0, 0, 0.486); }
+  .return__ul {
+    font-family: 'Courier New', Courier, monospace; }
+
+.tablaRanking {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.548); }
+
+#videoPd {
+  color: #d41f37;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline; }
+
+#divPd {
+  text-align: center; }
+
+.tituloContacto {
+  color: #ff0040;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  animation: bounce;
+  animation-duration: 2s; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: .5rem;
+  row-gap: .5rem; }
+
+@media (min-width: 360px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 720px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr); } }
+
+.imgJd {
+  width: 300px;
+  height: 280px; }
+
+.imgJd img {
+  width: 100%; }

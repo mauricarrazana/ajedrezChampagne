@@ -1,0 +1,22 @@
+.imagenes{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.63);
+    border: 2.5px solid rgba(0, 0, 0, 0.70);
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imagenes img{
+    width: 420px;
+    height: 320px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.return{
+    background-color: rgba(0, 0, 0, 0.486);
+
+    &__ul{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
