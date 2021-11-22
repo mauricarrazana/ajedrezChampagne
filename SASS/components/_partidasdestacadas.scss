@@ -9,3 +9,10 @@
 #divPd{
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .iframe__Pd{
+        width: 360px;
+        height: 215px;
+    }
+}

@@ -15,66 +15,68 @@
     <title>Ajedrez Champagne</title>
 </head>
 <body>
-    <header class="header">
-        <div class="animate__animated animate__backInDown">
-            <img src="img/logo.png" alt="logotipo" class="header__logo">
-        </div>    
-        <h1 class="fuente__Titulos">Ajedrez Champagne</h1>
-        <nav>
-            <div class="d-flex justify-content-center">
-                <ul class="navegadorContenedor">
-                    <li><a class="navegadorContenedor__a" href="index.html">Inicio</a></li>
-                    <li><a class="navegadorContenedor__a" href="historia.html">Historia</a></li>
-                    <li><a class="navegadorContenedor__a" href="ranking-mundial.html">Ranking Mundial</a></li>
-                    <li><a class="navegadorContenedor__a" href="partidasdestacadas.html">Partidas Destacadas</a></li>
-                    <li><a class="navegadorContenedor__a" href="contacto.html">Contacto</a></li>
-                    <li><a class="navegadorContenedor__a" href="jugadores-destacados.html">Jugadores destacados</a></li>
-                </ul>
+    <div class="contenedorR">
+        <header class="header">
+            <div class="animate__animated animate__backInDown">
+                <img src="img/logo.png" alt="logotipo" class="header__logo">
+            </div>    
+            <h1 class="fuente__Titulos">Ajedrez Champagne</h1>
+            <nav>
+                <div class="d-flex justify-content-center">
+                    <ul class="navegadorContenedor">
+                        <li><a class="navegadorContenedor__a" href="index.html">Inicio</a></li>
+                        <li><a class="navegadorContenedor__a" href="historia.html">Historia</a></li>
+                        <li><a class="navegadorContenedor__a" href="ranking-mundial.html">Ranking Mundial</a></li>
+                        <li><a class="navegadorContenedor__a" href="partidasdestacadas.html">Partidas Destacadas</a></li>
+                        <li><a class="navegadorContenedor__a" href="contacto.html">Contacto</a></li>
+                        <li><a class="navegadorContenedor__a" href="jugadores-destacados.html">Jugadores destacados</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.png" class="d-block w-100" alt="portada1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.png" class="d-block w-100" alt="portada3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </nav>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/portada1.png" class="d-block w-100" alt="portada1">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/portada3.png" class="d-block w-100" alt="portada3">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </header>
-    <div style="text-align:center;">
-        <div class="table" style="text-align:center;">
-            <table class="table__contenido">
-                <th>POSTS TODAS LAS SEMANAS</th>
-                <th>PUBLICACIONES DIDÁCTICAS</th>
-                <th>JUEGOS Y MUCHO MÁS</th>
-            </table>
-        </div>
-    </div>    
-    <div class="container-fluid">
+        </header>
         <div style="text-align:center;">
-            <h2 class="fuente__Subtitulos">¡Practique y resuelva problemas de tácticas!</h2>
-            <iframe src="https://livetactics.chessbase.com" width="400" height="440"></iframe>
+            <div class="table" style="text-align:center;">
+                <table class="table__contenido">
+                    <th>POSTS TODAS LAS SEMANAS</th>
+                    <th>PUBLICACIONES DIDÁCTICAS</th>
+                    <th>JUEGOS Y MUCHO MÁS</th>
+                </table>
+            </div>
+        </div>    
+        <div class="container-fluid">
+            <div style="text-align:center;">
+                <h2 class="fuente__Subtitulos">¡Practique y resuelva problemas de tácticas!</h2>
+                <iframe class="iframe" src="https://livetactics.chessbase.com" width="400" height="440"></iframe>
+            </div>
         </div>
+        <div class="d-flex justify-content-center">
+        <footer class="instagram">
+            <h4 class="instagram__txt">Seguinos en Instagram haciendo click <a href="https://www.instagram.com/ajedrezchampagne/">aquí!</a></h4>
+            <img class="instagram__logo" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="instagram">
+        </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
-    <div class="d-flex justify-content-center">
-    <footer class="instagram">
-        <h4>Seguinos en Instagram haciendo click <a href="https://www.instagram.com/ajedrezchampagne/">aquí!</a></h4>
-        <img class="instagram__logo" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="instagram">
-    </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
