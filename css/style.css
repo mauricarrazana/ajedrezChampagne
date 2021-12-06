@@ -117,7 +117,8 @@ body {
 .fuenteParrafos {
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 5%; }
 
 @media screen and (max-width: 768px) {
   .fuenteParrafos {
